@@ -1,0 +1,18 @@
+Server,Path
+M014630,C:\app\Oracle\product\11.1.0\client_1\network\admin\tnsnames.ora
+M015472,C:\oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+M015512,C:\oracle\product\11.2.0\client\network\admin\tnsnames.ora
+M015519,C:\app\product\11.2.0\client_1\network\admin\tnsnames.ora
+M016673,c:\app\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017421,C:\app\oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017425,C:\app\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017460,C:\app\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017463,C:\app\oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017536,C:\app\oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+M017536,C:\app\oracle\product\11.2.0\client_1\network\admin\backup\tnsnames.ora
+M017536,"C:\app\oracle\product\11.2.0\client_1\network\admin\backup\New folder\tnsnames.ora"
+M020352,C:\app\product\11.2.0\client_1\network\admin\tnsnames.ora
+MoorDX01,C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+MoorDX02,C:\Oracle\product\11.2.0\client_1\network\admin\tnsnames.ora
+MEHDWSSDT,C:\oracle\product\19.0.0\client_1\network\admin\tnsnames.ora
+MEHDWSSDT,C:\oracle\product\19.0.0\client_2\network\admin\tnsnames.ora

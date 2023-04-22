@@ -1,0 +1,43 @@
+<div id="countdown">Redirecting...</div>
+
+<script type="text/JavaScript">
+
+    // Steven Gill 21/02/22
+    // example usage file:///C:/Source/MEHRedirect.html?t=10&u=https://portal.national.ncrs.nhs.uk/portal/dt
+
+    function GetURLParameter(sParam)
+    {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) 
+        {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }
+        }
+    }
+
+    var timeout = GetURLParameter('t')
+    var url = GetURLParameter('u');
+
+    if (timeout == undefined) {timeout = 10;}
+    if (url == undefined) {url = "https://www.example.com";}
+
+    var url2 = "location.href = '" + url + "';"
+
+    setTimeout(url2 ,timeout*1000);
+
+    var timeleft = timeout 
+    var downloadTimer = setInterval(function(){
+    if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        document.getElementById("countdown").innerHTML = "";
+    } else {
+        document.getElementById("countdown").innerHTML = "Redirecting in " + timeleft + "...</p> <a href="+ url +">Open Site Now</a>";
+    }
+    timeleft -= 1;
+    }, 1000);
+
+</script>

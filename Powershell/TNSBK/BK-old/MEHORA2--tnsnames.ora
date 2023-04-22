@@ -1,0 +1,91 @@
+#
+# This file is written by Oracle Services For MSCS
+# on Wed Mar 25 21:18:07 2020
+#
+EFINL12 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=EFINL12)
+    )
+  )
+ORACLR_CONNECTION_DATA =
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = IPC)
+        (KEY = EXTPROC1522)
+      )
+    )
+    (CONNECT_DATA = 
+      (SID = CLRExtProc)
+      (PRESENTATION = RO)
+    )
+  )
+RCUL =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=RCUL)
+    )
+  )
+LIVE =
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (Host=192.168.18.67)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SID=LIVE)
+    )
+  )
+VR61 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.67)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=VR61)
+    )
+  )
+DBARC12 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=DBARC12)
+    )
+  )
+LISTENER_DBARC12 =
+  (ADDRESS = 
+    (PROTOCOL = TCP)
+    (HOST = MEHORA2.moorfields.nhs.uk)
+    (PORT = 1522)
+  )

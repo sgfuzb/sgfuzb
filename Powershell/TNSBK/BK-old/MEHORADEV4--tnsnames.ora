@@ -1,0 +1,179 @@
+#
+# This file is written by Oracle Services For MSCS
+# on Mon Mar 23 16:23:47 2020
+#
+PCSTRNAX =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=PCSTRNAX)
+    )
+  )
+LOCALDB =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=LOCALDB)
+    )
+  )
+DBARCT =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.144)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=DBARCT)
+    )
+  )
+PCSDEV =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=PCSDEV)
+    )
+  )
+PCSTST =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=PCSTST)
+    )
+  )
+EFINT12 =
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)
+        (Host = 192.168.19.144)
+        (Port = 1521)
+      )
+    )
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = EFINT12)
+    )
+  )
+EFINTR12 =
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)
+        (Host = 192.168.19.144)
+        (Port = 1521)
+      )
+    )
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = EFINTR12)
+    )
+  )
+TEST =
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SID=TEST)
+    )
+  )
+DBARCTR =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.144)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=DBARCTR)
+    )
+  )
+RCUT =
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)
+        (Host = 192.168.19.144)
+        (Port = 1521)
+      )
+    )
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = RCUT)
+    )
+  )
+PCSTRAN =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=PCSTRAN)
+    )
+  )
+TRAIN =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.19.46)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=TRAIN)
+    )
+  )
+RCUTR =
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)
+        (Host = 192.168.19.144)
+        (Port = 1521)
+      )
+    )
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = RCUTR)
+    )
+  )

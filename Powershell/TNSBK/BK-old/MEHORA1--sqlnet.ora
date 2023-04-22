@@ -1,0 +1,78 @@
+#
+# This file is written by Oracle Services For MSCS
+# on Wed Mar 25 21:16:46 2020
+#
+EFINL12 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=EFINL12)
+    )
+  )
+LISTENER_RCUL =
+  (ADDRESS = 
+    (PROTOCOL = TCP)
+    (HOST = 192.168.18.147)
+    (PORT = 1521)
+  )
+LIVE =
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (Host=192.168.18.67)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (SID=LIVE)
+    )
+  )
+VR61 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.67)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SID=VR61)
+    )
+  )
+DBARC12 =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=DBARC12)
+    )
+  )
+RCUL =
+  (DESCRIPTION= 
+    (ADDRESS_LIST= 
+      (ADDRESS= 
+        (PROTOCOL=TCP)
+        (Host=192.168.18.214)
+        (Port=1521)
+      )
+    )
+    (CONNECT_DATA= 
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=RCUL)
+    )
+  )

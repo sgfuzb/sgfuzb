@@ -1,0 +1,120 @@
+# Uninstall-Module Posh-SSH # may need to do in ISE separately
+# C:\Program Files\WindowsPowerShell\Modules
+# Install-Module -Name SSHSessions
+# https://www.edrockwell.com/blog/ssh-powershell-backup-cisco-devices-script/
+
+Import-Module SSHSessions
+
+
+$porterrs = @()
+$switches = @()
+
+$switches = 
+"MO-ESG-SN6600B-01",
+"MO-ESG-SN6600B-02",
+"MO-ESG-SN6600B-03",
+"MO-RDLG-SN6600B-01",
+"MO-RDLG-SN6600B-02",
+"MO-RDLG-SN6600B-03"
+
+#$switches = "MO-ESG-SN6600B-01"
+
+#$User = "admin"
+#$PWord = ConvertTo-SecureString -String "xxx" -AsPlainText -Force
+#$creds = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $PWord
+$creds = Get-Credential
+
+function Clear-FCPortErrors {
+    param (
+        $Switches,
+        [PSCredential] $creds
+    )
+    
+    $outputs = @()
+
+    Foreach ($switch in $switches){
+        # use -verbose for debug info
+        New-SSHSession -ComputerName $switch -Credential $creds
+        $outputs += Invoke-SshCommand -ComputerName $switch -Command 'portStatsClear -i 0-63' -Quiet
+        Get-SSHSession | Remove-SSHSession
+    }
+}
+
+function Get-FCAliases {
+    # TODO
+    # brocade; nsaliasshow
+}
+
+function Get-FCPortErrors {
+    param (
+        [array[]] $Switches,
+        [PSCredential] $creds
+    )
+    
+    $porterrs = @()
+    $outputs = @()
+
+    Foreach ($switch in $switches){
+        # use -verbose for debug info
+        New-SSHSession -ComputerName $switch -Credential $creds
+        $outputs += Invoke-SshCommand -ComputerName $switch -Command 'porterrshow' -Quiet
+        Get-SSHSession | Remove-SSHSession
+    }
+
+    #$outputs | Out-GridView
+
+    # Process command output
+
+    Foreach($out in $outputs){
+        $lines = $out.result.Split([Environment]::NewLine) | Where-Object { $_ -ne "" }
+
+        for ($i = 3; $i -lt $lines.Count - 1; $i++ )
+        {   
+            $PortErr = $lines[$i].trim() -Replace "\s+","," -Replace ":","" | ConvertFrom-Csv -Header Port,Frametx,Framerx,encin,crcerr,crcg_eofc,tooshrt,toolong,badeof,encout,discc3,linkfail,losssync,losssig,frjt,fbsy,c3timeouttx,c3timeoutrx,pcserr,uncorerr
+            
+            $Porterrs += [PSCustomObject]@{
+                SwitchName = $out.ComputerName
+                Port = $porterr.port
+                Frametx = $porterr.Frametx
+                Framerx = $porterr.Framerx
+                encin = $porterr.encin
+                crcerr = $porterr.crcerr
+                crcg_eofc = $porterr.crcg_eofc
+                tooshrt = $porterr.tooshrt
+                toolong = $porterr.toolong
+                badeof = $porterr.badeof
+                encout = $porterr.encout
+                discc3 = $porterr.discc3
+                linkfail = $porterr.linkfail
+                losssync = $porterr.losssync
+                losssig = $porterr.losssig
+                frjt = $porterr.frjt
+                fbsy = $porterr.fbsy
+                c3timeouttx = $porterr.c3timeouttx
+                c3timeoutrx = $porterr.c3timeoutrx
+                pcserr = $porterr.pcserr
+                uncorerr = $porterr.uncorerr
+
+            }        
+        }
+    }
+
+    Return $Porterrs
+}
+
+# Get port errors
+$Porterrs = Get-FCPortErrors -Switches $switches -creds $creds
+
+# Output errors
+#$Porterrs | Out-GridView # All
+#$Porterrs | Where-Object {($_.crcerr -gt 0)} | Out-GridView # Ports with CRC errors
+$porterrs | Where-Object {($_.Framerx -gt 0)} | Out-GridView # Only active ports
+
+break
+
+$FCAliases = Get-FCAliases -Switches $switches -creds $creds
+
+break
+
+# Clear Port Errors
+Clear-FCPortErrors -Switches $switches -creds $creds

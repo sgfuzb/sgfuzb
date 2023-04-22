@@ -1,0 +1,37 @@
+# Updated by Oracle Fail Safe on 5/16/2022 at 6:06:02 PM
+
+LOCALDB=
+  (DESCRIPTION=
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=LOCALDB)
+    )
+    (ADDRESS=(PROTOCOL=TCP)(HOST=ORALIVE19.moorfields.nhs.uk)(PORT=1521))
+  )
+
+FAILLIVE.MOORFIELDS.NHS.UK=
+  (DESCRIPTION=
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=faillive.moorfields.nhs.uk)
+    )
+    (ADDRESS=(PROTOCOL=TCP)(HOST=MEHORA3.moorfields.nhs.uk)(PORT=1521))
+  )
+
+PCSLIV=
+  (DESCRIPTION=
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=PCSLIV)
+    )
+    (ADDRESS=(PROTOCOL=TCP)(HOST=ORALIVE19.moorfields.nhs.uk)(PORT=1521))
+  )
+
+LIVE=
+  (DESCRIPTION=
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=LIVE)
+    )
+    (ADDRESS=(PROTOCOL=TCP)(HOST=ORALIVE19.moorfields.nhs.uk)(PORT=1521))
+  )

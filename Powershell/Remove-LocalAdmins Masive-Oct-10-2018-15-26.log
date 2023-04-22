@@ -1,0 +1,31 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20181025152654
+Username: CITY_ROAD\ADMINSG
+RunAs User: CITY_ROAD\ADMINSG
+Configuration Name: 
+Machine: M07575 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 10516
+PSVersion: 5.1.17134.228
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.228
+BuildVersion: 10.0.17134.228
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is m:\powershell\Remove-LocalAdmins Masive-Oct-10-2018-15-26.log
+Computer M07575 is online
+Verifying the local admin users on computer M07575
+Verifying the local admin users on computer M07575
+Verifying the local admin users on computer M07575
+Verifying the local admin users on computer M07575
+Verifying the local admin users on computer M07575
+User LocalAdmin found on computer M07575 ...
+Removed
+**********************
+Windows PowerShell transcript end
+End time: 20181025152657
+**********************

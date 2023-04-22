@@ -1,0 +1,3939 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200610180214
+Username: CITY_ROAD\ADMINSG
+RunAs User: CITY_ROAD\ADMINSG
+Configuration Name: 
+Machine: M016815 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\adminsg\.vscode\extensions\ms-vscode.powershell-2020.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2020.4.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\adminsg\.vscode\extensions\ms-vscode.powershell-2020.4.0\modules' -EnableConsoleRepl -LogLevel 'Normal' -LogPath 'c:\Users\adminsg\.vscode\extensions\ms-vscode.powershell-2020.4.0\logs\1591096684-eac10d3b-cfef-48b7-8210-439957c6fdd01591096683079\EditorServices.log' -SessionDetailsPath 'c:\Users\adminsg\.vscode\extensions\ms-vscode.powershell-2020.4.0\sessions\PSES-VSCode-14888-743010' -FeatureFlags @() 
+Process ID: 71476
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is m:\powershell\addtoadgroup_202006100214.log
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+PS>TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+>> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+Transcript started, output file is m:\powershell\addtoadgroup_202006100232.log
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+AcharayaG, added to PAS_Users_group
+AchaibanM, added to PAS_Users_group
+AcostaN, added to PAS_Users_group
+AcresS, added to PAS_Users_group
+AdamsA, added to PAS_Users_group
+AdamsJ, added to PAS_Users_group
+AdanK, added to PAS_Users_group
+AddaiF, added to PAS_Users_group
+AddisonK, added to PAS_Users_group
+AddisonL, added to PAS_Users_group
+AdeyemoA, added to PAS_Users_group
+AdepitanA, added to PAS_Users_group
+AdetuD, added to PAS_Users_group
+AdenekanH, added to PAS_Users_group
+AdesanyaJ, added to PAS_Users_group
+AdewaleO, added to PAS_Users_group
+AdemorotiO, added to PAS_Users_group
+AdepegbaO, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AdkinsE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AdkinsE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'AdkinsE' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AdkinsE:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'AdkinsE' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AdkinsE:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+AdkinsE, added to PAS_Users_group
+AfrahM, added to PAS_Users_group
+AfzulH, added to PAS_Users_group
+AgudeloJ, added to PAS_Users_group
+Aguilar-MunoaS, added to PAS_Users_group
+AgyiriV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Ah-KyeL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'Ah-KyeL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'Ah-KyeL' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Ah-KyeL:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'Ah-KyeL' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Ah-KyeL:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+Ah-KyeL, added to PAS_Users_group
+Transcript stopped, output file is M:\powershell\addtoadgroup_202006100232.log
+@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+Get-ADUser -identity usernameGet-ADUser -identity username
+>> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Mic
+rosoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+Get-ADUser -identity username@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> (Get-ADUser -identity username)
+>> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:2
++ (Get-ADUser -identity username)
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Mic
+rosoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:2
++ (Get-ADUser -identity username)
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> Get-ADUser -identity username | out-null
+>> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username | out-null
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Mic
+rosoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username | out-null
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> Get-ADUser -identity username -ErrorAction stop
+>> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username -ErrorAction stop
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Mic
+rosoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Get-ADUser -identity username -ErrorAction stop
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> Add-ADGroupMember -Identity $ADGroupName -Members username
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Add-ADGroupMember -Identity $ADGroupName -Members username
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Add-ADGroupMember -Identity $ADGroupName -Members username
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> Add-ADGroupMember -Identity $ADGroupName -Members username -ErrorAction SilentlyContinue
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Add-ADGroupMember -Identity $ADGroupName -Members username -ErrorActi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:1
++ Add-ADGroupMember -Identity $ADGroupName -Members username -ErrorActi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+PS M:\netperf> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+AcharayaG, added to PAS_Users_group
+AchaibanM, added to PAS_Users_group
+AcostaN, added to PAS_Users_group
+AcresS, added to PAS_Users_group
+AdamsA, added to PAS_Users_group
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+>> TerminatingError(Add-ADGroupMember): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : 
+SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+Add-ADGroupMember : Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At M:\Powershell\delme.ps1:18 char:9
++         Add-ADGroupMember -Identity $ADGroupName -Members $username - ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (AcharayaG:ADPrincipal) [Add-ADGroupMember], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : SetADGroupMember.ValidateMembersParameter,Microsoft.ActiveDirectory.Management.Commands.AddADGroupMember
+
+AcharayaG, added to PAS_Users_group
+AchaibanM, added to PAS_Users_group
+AcostaN, added to PAS_Users_group
+AcresS, added to PAS_Users_group
+AdamsA, added to PAS_Users_group
+@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+Add-Content -Path$dpn = Get-ADUser -identity usernameAdd-Content -Path$dpn = Get-ADUser -identity username
+>> TerminatingError(Add-Content): "A parameter cannot be found that matches parameter name 'Path$dpn'."
+Add-Content : A parameter cannot be found that matches parameter name 'Path$dpn'.
+At line:1 char:13
++ Add-Content -Path$dpn = Get-ADUser -identity username
++             ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Add-Content], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.AddContentCommand
+Add-Content : A parameter cannot be found that matches parameter name 'Path$dpn'.
+At line:1 char:13
++ Add-Content -Path$dpn = Get-ADUser -identity username
++             ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Add-Content], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.AddContentCommand
+
+Add-Content -Path$dpn = Get-ADUser -identity username@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> $dpn = Get-ADUser -identity username
+>> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'."
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:8
++ $dpn = Get-ADUser -identity username
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Mic
+rosoft.ActiveDirectory.Management.Commands.GetADUser
+Get-ADUser : Cannot find an object with identity: 'username' under: 'DC=moorfields,DC=nhs,DC=uk'.
+At line:1 char:8
++ $dpn = Get-ADUser -identity username
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (username:ADUser) [Get-ADUser], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityNotFoundException,Microsoft.ActiveDirectory.Management.Commands.GetADUser
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> $dpn
+
+
+DistinguishedName : CN=ADAMSA,CN=Users,DC=moorfields,DC=nhs,DC=uk
+Enabled           : True
+GivenName         : Amanda
+Name              : ADAMSA
+ObjectClass       : user
+ObjectGUID        : 0c8273e7-da2c-4e1e-86c9-87e5bc4d5e87
+SamAccountName    : ADAMSA
+SID               : S-1-5-21-563353728-1466834001-1008150880-4102
+Surname           : Adams
+UserPrincipalName : Amanda.Adams@moorfields.nhs.uk
+
+
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+PS M:\netperf> TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AcharayaG, Not found
+AchaibanM, added to PAS_Users_group
+AcostaN, added to PAS_Users_group
+AcresS, added to PAS_Users_group
+AdamsA, added to PAS_Users_group
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+AbasA, added to PAS_Users_group
+AbbasM, added to PAS_Users_group
+AbbasiS, added to PAS_Users_group
+AbdelgalilN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AcharayaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AcharayaG, Not found
+AchaibanM, added to PAS_Users_group
+AcostaN, added to PAS_Users_group
+AcresS, added to PAS_Users_group
+AdamsA, added to PAS_Users_group
+AdamsJ, added to PAS_Users_group
+AdanK, added to PAS_Users_group
+AddaiF, added to PAS_Users_group
+AddisonK, added to PAS_Users_group
+AddisonL, added to PAS_Users_group
+AdeyemoA, added to PAS_Users_group
+AdepitanA, added to PAS_Users_group
+AdetuD, added to PAS_Users_group
+AdenekanH, added to PAS_Users_group
+AdesanyaJ, added to PAS_Users_group
+AdewaleO, added to PAS_Users_group
+AdemorotiO, added to PAS_Users_group
+AdepegbaO, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AdkinsE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AdkinsE, Not found
+AfrahM, added to PAS_Users_group
+AfzulH, added to PAS_Users_group
+AgudeloJ, added to PAS_Users_group
+Aguilar-MunoaS, added to PAS_Users_group
+AgyiriV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Ah-KyeL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Ah-KyeL, Not found
+AhmedA, added to PAS_Users_group
+AhmedA, added to PAS_Users_group
+AhmedA, added to PAS_Users_group
+AhmedF, added to PAS_Users_group
+AhmedH, added to PAS_Users_group
+AhmedK, added to PAS_Users_group
+AhmedL, added to PAS_Users_group
+AhmedR, added to PAS_Users_group
+AhmedR, added to PAS_Users_group
+AjaoS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AjizA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AjizA, Not found
+AkinfolarinA, added to PAS_Users_group
+AkurienneC, added to PAS_Users_group
+AlabiK, added to PAS_Users_group
+AlfarraA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Al-HayoutiH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Al-HayoutiH, Not found
+Al-HayaliY, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AliA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AliA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AliM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AliM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AlkarmiK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AlkarmiK, Not found
+AllamJ, added to PAS_Users_group
+AllenL, added to PAS_Users_group
+AlomB, added to PAS_Users_group
+AlvaresT, added to PAS_Users_group
+AmadasunC, added to PAS_Users_group
+AmankwaahR, added to PAS_Users_group
+AmerterA, added to PAS_Users_group
+AmedieF, added to PAS_Users_group
+AmjadM, added to PAS_Users_group
+AmoahS, added to PAS_Users_group
+AnandakumarM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AnandV' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AnandV, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AndersonC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AndersonC, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AndrewsJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AndrewsJ, Not found
+AndiapenK, added to PAS_Users_group
+AndersonM, added to PAS_Users_group
+AndrewsR, added to PAS_Users_group
+AnguigeK, added to PAS_Users_group
+AnguigeN, added to PAS_Users_group
+AnjumanT, added to PAS_Users_group
+AntoniouA, added to PAS_Users_group
+AntoineD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Antoine-PhilipR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Antoine-PhilipR, Not found
+ApostolR, added to PAS_Users_group
+AppiahewusiD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'aappiah-DanquaJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: aappiah-DanquaJ, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Appiah-KubiS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Appiah-KubiS, Not found
+ApatiraL, added to PAS_Users_group
+AquinoL, added to PAS_Users_group
+AralA, added to PAS_Users_group
+AreF, added to PAS_Users_group
+ArmanH, added to PAS_Users_group
+ArthurJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ArunakirinathaM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ArunakirinathaM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Asante-BoatenS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Asante-BoatenS, Not found
+AshA, added to PAS_Users_group
+AsimengL, added to PAS_Users_group
+AsokarS, added to PAS_Users_group
+AsubontengA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AtkinsonE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AtkinsonE, Not found
+AukaulooN, added to PAS_Users_group
+AuldA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AveyardB' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AveyardB, Not found
+AzarbodP, added to PAS_Users_group
+AzizA, added to PAS_Users_group
+AziziS, added to PAS_Users_group
+BadunaJ, added to PAS_Users_group
+BadekM, added to PAS_Users_group
+BagnallF, added to PAS_Users_group
+BagonocJ, added to PAS_Users_group
+BahraJ, added to PAS_Users_group
+BaileyR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BakerJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BakerJ, Not found
+BakareS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BaltmrA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BaltmrA, Not found
+BalaC, added to PAS_Users_group
+BalagteyK, added to PAS_Users_group
+BalalS, added to PAS_Users_group
+BambroughH, added to PAS_Users_group
+BanwaitA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JanBanekeA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JanBanekeA, Not found
+BangaraA, added to PAS_Users_group
+BanC, added to PAS_Users_group
+BanwaitE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BanguraM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BanguraM, Not found
+BandaS, added to PAS_Users_group
+BarnesA, added to PAS_Users_group
+BaretteA, added to PAS_Users_group
+BarkerC, added to PAS_Users_group
+BaronD, added to PAS_Users_group
+BartlettJ, added to PAS_Users_group
+BarnfieldJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BarnardK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BarnardK, Not found
+BarkerL, added to PAS_Users_group
+BaruaL, added to PAS_Users_group
+BarckerM, added to PAS_Users_group
+BarrettP, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BashemeraA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BashemeraA, Not found
+BasheerK, added to PAS_Users_group
+BassL, added to PAS_Users_group
+BatzikosG, added to PAS_Users_group
+BeaconsfieldM, added to PAS_Users_group
+BeddowC, added to PAS_Users_group
+BeecherW, added to PAS_Users_group
+BegumA, added to PAS_Users_group
+BegumH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BegumJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BegumJ, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BegumM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BegumM, Not found
+BegumN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BegumR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BegumR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BegumR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BegumR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BegumR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BegumR, Not found
+BegumS, added to PAS_Users_group
+BegumS, added to PAS_Users_group
+BegumS, added to PAS_Users_group
+BegumS, added to PAS_Users_group
+BegumS, added to PAS_Users_group
+BegumS, added to PAS_Users_group
+BellB, added to PAS_Users_group
+BellK, added to PAS_Users_group
+BelmourL, added to PAS_Users_group
+BellS, added to PAS_Users_group
+BenjaminL, added to PAS_Users_group
+BenderL, added to PAS_Users_group
+BennettM, added to PAS_Users_group
+BestM, added to PAS_Users_group
+BewryA, added to PAS_Users_group
+BhattiA, added to PAS_Users_group
+BhangooB, added to PAS_Users_group
+BharadiaN, added to PAS_Users_group
+BhatoaN, added to PAS_Users_group
+BhambraP, added to PAS_Users_group
+BhagatV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BhermiS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BhermiS, Not found
+BhooneeS, added to PAS_Users_group
+BibiR, added to PAS_Users_group
+BielaE, added to PAS_Users_group
+BirminghamA, added to PAS_Users_group
+BiswasB, added to PAS_Users_group
+BlackshawL, added to PAS_Users_group
+BlochE, added to PAS_Users_group
+BoachieN, added to PAS_Users_group
+BohnM, added to PAS_Users_group
+BonnerJ, added to PAS_Users_group
+BostonH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BourasK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BourasK, Not found
+BradleyA, added to PAS_Users_group
+BradleyK, added to PAS_Users_group
+BraddickN, added to PAS_Users_group
+BradeV, added to PAS_Users_group
+BrennanN, added to PAS_Users_group
+BriggsA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BrownA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BrownA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'BrownA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: BrownA, Not found
+BrookesC, added to PAS_Users_group
+BrownE, added to PAS_Users_group
+BrownG, added to PAS_Users_group
+BroadbentJ, added to PAS_Users_group
+BrownJ, added to PAS_Users_group
+BroomK, added to PAS_Users_group
+BrownL, added to PAS_Users_group
+BrownL, added to PAS_Users_group
+BrooksR, added to PAS_Users_group
+BrookS, added to PAS_Users_group
+BryantD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Brzeska-SzecP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Brzeska-SzecP, Not found
+BucayM, added to PAS_Users_group
+BuceT, added to PAS_Users_group
+BuistS, added to PAS_Users_group
+BunceJ, added to PAS_Users_group
+BuraleA, added to PAS_Users_group
+BurkeA, added to PAS_Users_group
+BurnsC, added to PAS_Users_group
+BurrellC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PaulBurtonJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PaulBurtonJ, Not found
+BurtonL, added to PAS_Users_group
+BurkeN, added to PAS_Users_group
+BurthunZ, added to PAS_Users_group
+ButtigiegA, added to PAS_Users_group
+ButtN, added to PAS_Users_group
+ButtarS, added to PAS_Users_group
+CabahugR, added to PAS_Users_group
+CabahugR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'CaderS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: CaderS, Not found
+CalveyR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'CannonJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: CannonJ, Not found
+CanadaZ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'CarterA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: CarterA, Not found
+CarpenterD, added to PAS_Users_group
+CarpenterH, added to PAS_Users_group
+CarringtonK, added to PAS_Users_group
+CarterM, added to PAS_Users_group
+CarneyM, added to PAS_Users_group
+CarterN, added to PAS_Users_group
+CarringtonN, added to PAS_Users_group
+CarmichaelS, added to PAS_Users_group
+CarneiroS, added to PAS_Users_group
+CasafinaC, added to PAS_Users_group
+CasswellE, added to PAS_Users_group
+CaseyM, added to PAS_Users_group
+CavanaghJ, added to PAS_Users_group
+CazaubonM, added to PAS_Users_group
+CevenB, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ChandraA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ChandraA, Not found
+CharnleyA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Charles-WilliamsA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Charles-WilliamsA, Not found
+ChandaranaB, added to PAS_Users_group
+ChanaH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ChanJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ChanJ, Not found
+CharlesL, added to PAS_Users_group
+ChanM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ChanaR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ChanaR, Not found
+ChandiS, added to PAS_Users_group
+ChandaV, added to PAS_Users_group
+ChalpkinY, added to PAS_Users_group
+CheungC, added to PAS_Users_group
+CheangK, added to PAS_Users_group
+ChildC, added to PAS_Users_group
+ChirasD, added to PAS_Users_group
+ChinyamaE, added to PAS_Users_group
+ChinnS, added to PAS_Users_group
+ChokshiA, added to PAS_Users_group
+ChowdhuryN, added to PAS_Users_group
+ChopraR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ChowdhuryS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ChowdhuryS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ChowdhuryS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ChowdhuryS, Not found
+ChowdhuryT, added to PAS_Users_group
+ChoudhryZ, added to PAS_Users_group
+CilkovaM, added to PAS_Users_group
+CinkoF, added to PAS_Users_group
+ClarkeB, added to PAS_Users_group
+ClarkeB, added to PAS_Users_group
+ClaridadC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ClarkeC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ClarkeC, Not found
+ClarkeD, added to PAS_Users_group
+ClayE, added to PAS_Users_group
+ClapsonS, added to PAS_Users_group
+CoatesN, added to PAS_Users_group
+CogginP, added to PAS_Users_group
+CollinsE, added to PAS_Users_group
+CollinsP, added to PAS_Users_group
+CornicheJ, added to PAS_Users_group
+CorpuzS, added to PAS_Users_group
+CostaR, added to PAS_Users_group
+CotterS, added to PAS_Users_group
+CoxN, added to PAS_Users_group
+CoyA, added to PAS_Users_group
+CraneD, added to PAS_Users_group
+CrosslandM, added to PAS_Users_group
+Crosby-NwaobiR, added to PAS_Users_group
+CryanM, added to PAS_Users_group
+CumberbatchS, added to PAS_Users_group
+CunhaA, added to PAS_Users_group
+CunninghamE, added to PAS_Users_group
+CzyzI, added to PAS_Users_group
+DabrowskiM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DaCostaP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DaCostaP, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DacruzL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DacruzL, Not found
+Dahlmann-NoorA, added to PAS_Users_group
+DanielC, added to PAS_Users_group
+DanaseelanS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ToanDangT' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ToanDangT, Not found
+DansoW, added to PAS_Users_group
+DarikasC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'D'AranjoD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: D'AranjoD, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DasBhaumikR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DasBhaumikR, Not found
+DasS, added to PAS_Users_group
+DavisA, added to PAS_Users_group
+DavisA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DaviesA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DaviesA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DaviesC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DaviesC, Not found
+DaveyG, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DavisJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DavisJ, Not found
+DavidS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DavisS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DavisS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AlexanderDayD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AlexanderDayD, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DeeqaM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DeeqaM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HdehabadiM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HdehabadiM, Not found
+DeibR, added to PAS_Users_group
+DeSilvaI, added to PAS_Users_group
+DesouzaM, added to PAS_Users_group
+DettoriR, added to PAS_Users_group
+DeviA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DeveraM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DeveraM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DvasconcelosM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DvasconcelosM, Not found
+DhaliwalB, added to PAS_Users_group
+DhillonV, added to PAS_Users_group
+DiasF, added to PAS_Users_group
+DillonS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DimpleM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DimpleM, Not found
+DinsdaleE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DinN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DinN, Not found
+DinZ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JoanDixonD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JoanDixonD, Not found
+DodooC, added to PAS_Users_group
+DogaruA, added to PAS_Users_group
+DolbyC, added to PAS_Users_group
+DolanJ, added to PAS_Users_group
+DominaitisT, added to PAS_Users_group
+DondiC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'D'OnofrioL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: D'OnofrioL, Not found
+DoughartyJ, added to PAS_Users_group
+DowseE, added to PAS_Users_group
+DoyleJ, added to PAS_Users_group
+DuaA, added to PAS_Users_group
+DugdillJ, added to PAS_Users_group
+DuncanC, added to PAS_Users_group
+DunbarH, added to PAS_Users_group
+DunlopN, added to PAS_Users_group
+DurandG, added to PAS_Users_group
+EbronR, added to PAS_Users_group
+EdgarA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Ediri-AnunuA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Ediri-AnunuA, Not found
+EdikiE, added to PAS_Users_group
+EdkinsC, added to PAS_Users_group
+EdwardsB, added to PAS_Users_group
+EdwardsE, added to PAS_Users_group
+EdwardsL, added to PAS_Users_group
+EdwardsM, added to PAS_Users_group
+EganC, added to PAS_Users_group
+EgbogunE, added to PAS_Users_group
+EkenobiN, added to PAS_Users_group
+EkhatorR, added to PAS_Users_group
+EkundayoM, added to PAS_Users_group
+ElafghaniK, added to PAS_Users_group
+ElderG, added to PAS_Users_group
+ElfadalyD, added to PAS_Users_group
+ElhamriH, added to PAS_Users_group
+EllisR, added to PAS_Users_group
+EnahoroN, added to PAS_Users_group
+EniG, added to PAS_Users_group
+EnriquezE, added to PAS_Users_group
+ErachoU, added to PAS_Users_group
+EricssonR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DegliEspostiS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DegliEspostiS, Not found
+EthertonK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'EvansJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: EvansJ, Not found
+EylesJ, added to PAS_Users_group
+EzraD, added to PAS_Users_group
+FajardoJ, added to PAS_Users_group
+FakoyaA, added to PAS_Users_group
+FakehaI, added to PAS_Users_group
+FasoloS, added to PAS_Users_group
+FaulknerP, added to PAS_Users_group
+FazliM, added to PAS_Users_group
+FazilovaN, added to PAS_Users_group
+FegaridoF, added to PAS_Users_group
+FernandesA, added to PAS_Users_group
+FernandezB, added to PAS_Users_group
+FernandezC, added to PAS_Users_group
+FergieC, added to PAS_Users_group
+FernandezE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'FernandesS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: FernandesS, Not found
+FieldingJ, added to PAS_Users_group
+FieldP, added to PAS_Users_group
+FilipovaV, added to PAS_Users_group
+FinkenP, added to PAS_Users_group
+FisherC, added to PAS_Users_group
+SunbulFistikE, added to PAS_Users_group
+FistikS, added to PAS_Users_group
+FlattD, added to PAS_Users_group
+FlattN, added to PAS_Users_group
+FlemingH, added to PAS_Users_group
+FlemonsK, added to PAS_Users_group
+FloresB, added to PAS_Users_group
+FlynnK, added to PAS_Users_group
+FolarinA, added to PAS_Users_group
+ForresterR, added to PAS_Users_group
+FosterS, added to PAS_Users_group
+FosterT, added to PAS_Users_group
+FothergillA, added to PAS_Users_group
+FotiouP, added to PAS_Users_group
+FountiP, added to PAS_Users_group
+FrancisA, added to PAS_Users_group
+FraserA, added to PAS_Users_group
+FrancoisN, added to PAS_Users_group
+FranklandP, added to PAS_Users_group
+FranklinS, added to PAS_Users_group
+FuruglyasovaL, added to PAS_Users_group
+GalloB, added to PAS_Users_group
+GamageD, added to PAS_Users_group
+GamboaF, added to PAS_Users_group
+GanapathyK, added to PAS_Users_group
+GatchalianJ, added to PAS_Users_group
+GavarraF, added to PAS_Users_group
+GavinJ, added to PAS_Users_group
+GayleS, added to PAS_Users_group
+GebremichaelM, added to PAS_Users_group
+GeorgeA, added to PAS_Users_group
+GervaisS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'GiddingsV' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: GiddingsV, Not found
+GilbreathD, added to PAS_Users_group
+GilhooleyM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DavidGillamM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DavidGillamM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Gilbert-CampbellM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Gilbert-CampbellM, Not found
+GillS, added to PAS_Users_group
+GimenezA, added to PAS_Users_group
+GinoT, added to PAS_Users_group
+Girard-ClaudonK, added to PAS_Users_group
+GkaragkaniE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'GohD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: GohD, Not found
+GoiaN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'GoldingK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: GoldingK, Not found
+GonzalesA, added to PAS_Users_group
+GoopeeV, added to PAS_Users_group
+GoreD, added to PAS_Users_group
+GormanR, added to PAS_Users_group
+GosaiJ, added to PAS_Users_group
+GrandeurF, added to PAS_Users_group
+GrayJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'GrahamM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: GrahamM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Grant-MackenzN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Grant-MackenzN, Not found
+GreenawayA, added to PAS_Users_group
+GregoryC, added to PAS_Users_group
+GregoriouE, added to PAS_Users_group
+GrealishJ, added to PAS_Users_group
+GrewalP, added to PAS_Users_group
+GriggC, added to PAS_Users_group
+GriffinL, added to PAS_Users_group
+GriffithR, added to PAS_Users_group
+GrimesR, added to PAS_Users_group
+GriffithsT, added to PAS_Users_group
+GriggsT, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'FrancoGuevarraM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: FrancoGuevarraM, Not found
+GuevaraG, added to PAS_Users_group
+GumbrellA, added to PAS_Users_group
+GuntemO, added to PAS_Users_group
+GuptaC, added to PAS_Users_group
+GuptaT, added to PAS_Users_group
+GyimahR, added to PAS_Users_group
+HafeezA, added to PAS_Users_group
+HalaiU, added to PAS_Users_group
+HammerA, added to PAS_Users_group
+HammondD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HamiltonJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HamiltonJ, Not found
+HamidS, added to PAS_Users_group
+HampsonS, added to PAS_Users_group
+HanumunthaduD, added to PAS_Users_group
+HancoxJ, added to PAS_Users_group
+HancockL, added to PAS_Users_group
+HanrahanS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SinghHansiS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SinghHansiS, Not found
+HaqA, added to PAS_Users_group
+HaqA, added to PAS_Users_group
+HaqueJ, added to PAS_Users_group
+HarrisG, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WhartlesG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WhartlesG, Not found
+HarneyK, added to PAS_Users_group
+HardyM, added to PAS_Users_group
+HarneyS, added to PAS_Users_group
+HardingT, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HassanA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HassanA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HassanK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HassanK, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HassanS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HassanS, Not found
+HattonK, added to PAS_Users_group
+HattersleyS, added to PAS_Users_group
+HauS, added to PAS_Users_group
+HaynesB, added to PAS_Users_group
+HayG, added to PAS_Users_group
+HayesK, added to PAS_Users_group
+HeadleyJ, added to PAS_Users_group
+HeerenT, added to PAS_Users_group
+HendricksonK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MoniqueHepburnA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MoniqueHepburnA, Not found
+HerathA, added to PAS_Users_group
+HerbertsonV, added to PAS_Users_group
+HewittS, added to PAS_Users_group
+HeydonE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HillsS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HillsS, Not found
+HindsA, added to PAS_Users_group
+HindleE, added to PAS_Users_group
+HingoraniM, added to PAS_Users_group
+HirjiA, added to PAS_Users_group
+HoehA, added to PAS_Users_group
+HolmP, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HeeHongE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HeeHongE, Not found
+HoqueN, added to PAS_Users_group
+HoulstonA, added to PAS_Users_group
+HowardB, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Howarth-BloorJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Howarth-BloorJ, Not found
+HrkM, added to PAS_Users_group
+HuK, added to PAS_Users_group
+HuntE, added to PAS_Users_group
+HunterM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HuqS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HuqS, Not found
+HusseinA, added to PAS_Users_group
+HussainB, added to PAS_Users_group
+HussainK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'HusseinN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: HusseinN, Not found
+HussainQ, added to PAS_Users_group
+HussainR, added to PAS_Users_group
+HussainS, added to PAS_Users_group
+HydeT, added to PAS_Users_group
+HyerJ, added to PAS_Users_group
+IbanezP, added to PAS_Users_group
+IbrahimT, added to PAS_Users_group
+IeongA, added to PAS_Users_group
+IlyasH, added to PAS_Users_group
+InnissR, added to PAS_Users_group
+InyutinB, added to PAS_Users_group
+IonidesA, added to PAS_Users_group
+IslamE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'IslamM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: IslamM, Not found
+IslamR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'IslamT' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: IslamT, Not found
+IsmailjeeM, added to PAS_Users_group
+JaberA, added to PAS_Users_group
+JacobsL, added to PAS_Users_group
+JacksonP, added to PAS_Users_group
+JacksonV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JadeH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JadeH, Not found
+JafferaliM, added to PAS_Users_group
+JainM, added to PAS_Users_group
+JalaliM, added to PAS_Users_group
+JamesonH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JamesO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JamesO, Not found
+JaniJ, added to PAS_Users_group
+JanuskevicieneR, added to PAS_Users_group
+JardineC, added to PAS_Users_group
+JaselskyA, added to PAS_Users_group
+JayaramH, added to PAS_Users_group
+JaycocksL, added to PAS_Users_group
+JeantouM, added to PAS_Users_group
+JeevanandanA, added to PAS_Users_group
+JengM, added to PAS_Users_group
+JessupP, added to PAS_Users_group
+JessaZ, added to PAS_Users_group
+JethwaR, added to PAS_Users_group
+JhangariaK, added to PAS_Users_group
+JimenezG, added to PAS_Users_group
+JindalA, added to PAS_Users_group
+JohnsonA, added to PAS_Users_group
+JohnsonD, added to PAS_Users_group
+JohnsonG, added to PAS_Users_group
+JohnsonI, added to PAS_Users_group
+JohnsonN, added to PAS_Users_group
+JohnR, added to PAS_Users_group
+JollyR, added to PAS_Users_group
+JonesE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JonesK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JonesK, Not found
+JosephC, added to PAS_Users_group
+JoseL, added to PAS_Users_group
+JoseM, added to PAS_Users_group
+JossonV, added to PAS_Users_group
+JovenY, added to PAS_Users_group
+JudgeJ, added to PAS_Users_group
+JurkuteN, added to PAS_Users_group
+KamaraH, added to PAS_Users_group
+KamarunaiteJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'YiuRonaldKamK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: YiuRonaldKamK, Not found
+KamalN, added to PAS_Users_group
+KanetiJ, added to PAS_Users_group
+KankamR, added to PAS_Users_group
+KanaS, added to PAS_Users_group
+KangS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'KandaS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: KandaS, Not found
+KandasamyY, added to PAS_Users_group
+KanuZ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'KarimaA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: KarimaA, Not found
+KaridakisJ, added to PAS_Users_group
+KariaK, added to PAS_Users_group
+KaraniaR, added to PAS_Users_group
+KaschA, added to PAS_Users_group
+KattaM, added to PAS_Users_group
+KatzM, added to PAS_Users_group
+KayeA, added to PAS_Users_group
+KayodeM, added to PAS_Users_group
+KeaneD, added to PAS_Users_group
+KeenanM, added to PAS_Users_group
+KeitaF, added to PAS_Users_group
+KempS, added to PAS_Users_group
+KenanF, added to PAS_Users_group
+KeraiB, added to PAS_Users_group
+KetebD, added to PAS_Users_group
+KeysM, added to PAS_Users_group
+KhanomB, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AhmedKhanD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AhmedKhanD, Not found
+KhambatiH, added to PAS_Users_group
+KhanI, added to PAS_Users_group
+KhatunM, added to PAS_Users_group
+KhanO, added to PAS_Users_group
+KhawP, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'KhatunS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: KhatunS, Not found
+KhanY, added to PAS_Users_group
+KhanZ, added to PAS_Users_group
+KhetiaA, added to PAS_Users_group
+KhistriaJ, added to PAS_Users_group
+KhodaS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AyeshaKhurshidN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AyeshaKhurshidN, Not found
+KiernanM, added to PAS_Users_group
+KiernanS, added to PAS_Users_group
+KilduffC, added to PAS_Users_group
+KilbyK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'OkKimE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: OkKimE, Not found
+KingM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'KingR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: KingR, Not found
+KiousisG, added to PAS_Users_group
+KirkpatrickB, added to PAS_Users_group
+KirkwoodH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WeiYinKitV' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WeiYinKitV, Not found
+KnightA, added to PAS_Users_group
+KnightH, added to PAS_Users_group
+KoayS, added to PAS_Users_group
+KobayashiM, added to PAS_Users_group
+KoladeO, added to PAS_Users_group
+KoomsonG, added to PAS_Users_group
+KoshyJ, added to PAS_Users_group
+KotechaR, added to PAS_Users_group
+KowalskaM, added to PAS_Users_group
+KozyraJ, added to PAS_Users_group
+KpakiwaT, added to PAS_Users_group
+KrimanJ, added to PAS_Users_group
+KrishnaV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Kubrak-KiszaM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Kubrak-KiszaM, Not found
+KukadiaA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'QiangKwongT' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: QiangKwongT, Not found
+KyratzoglouK, added to PAS_Users_group
+LaberE, added to PAS_Users_group
+LacsamanaS, added to PAS_Users_group
+LadJ, added to PAS_Users_group
+LaffertyC, added to PAS_Users_group
+LakhaniS, added to PAS_Users_group
+LallmahamoodS, added to PAS_Users_group
+LaminA, added to PAS_Users_group
+LamK, added to PAS_Users_group
+LangfordF, added to PAS_Users_group
+LaneR, added to PAS_Users_group
+LauN, added to PAS_Users_group
+LauR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LaulooS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LaulooS, Not found
+LawC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LawrenceH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LawrenceH, Not found
+LawlorM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LawerenceS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LawerenceS, Not found
+LeakC, added to PAS_Users_group
+LeaT, added to PAS_Users_group
+LeeC, added to PAS_Users_group
+LeeS, added to PAS_Users_group
+LeongK, added to PAS_Users_group
+LesnerK, added to PAS_Users_group
+LettS, added to PAS_Users_group
+LeucciM, added to PAS_Users_group
+LevyA, added to PAS_Users_group
+LeveyB, added to PAS_Users_group
+LeverettL, added to PAS_Users_group
+LewisM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LinLiewW' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LinLiewW, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SingLimW' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SingLimW, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LindseyN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LindseyN, Not found
+LinP, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LipnickaG' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LipnickaG, Not found
+LissenburgJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Lloyd-HayL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Lloyd-HayL, Not found
+LloydV, added to PAS_Users_group
+LogeswaranA, added to PAS_Users_group
+LohiaK, added to PAS_Users_group
+LohiaV, added to PAS_Users_group
+LopezA, added to PAS_Users_group
+LopezN, added to PAS_Users_group
+LotivioA, added to PAS_Users_group
+LouisP, added to PAS_Users_group
+LovedayN, added to PAS_Users_group
+LoweM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ShingLowW' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ShingLowW, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LowY' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LowY, Not found
+LuddenS, added to PAS_Users_group
+LuisJ, added to PAS_Users_group
+LuoW, added to PAS_Users_group
+LynchP, added to PAS_Users_group
+MaanS, added to PAS_Users_group
+MackneyC, added to PAS_Users_group
+MacalisterG, added to PAS_Users_group
+MackenzieK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'LmackenzieR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: LmackenzieR, Not found
+MadzivanyikaA, added to PAS_Users_group
+MakuloluwaA, added to PAS_Users_group
+MalikM, added to PAS_Users_group
+MammadovaM, added to PAS_Users_group
+MansfieldJ, added to PAS_Users_group
+MandalN, added to PAS_Users_group
+MandalN, added to PAS_Users_group
+ManolacheO, added to PAS_Users_group
+ManaloP, added to PAS_Users_group
+ManY, added to PAS_Users_group
+MarinescuA, added to PAS_Users_group
+MarjanovicB, added to PAS_Users_group
+MaruB, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MarcC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MarcC, Not found
+MaruM, added to PAS_Users_group
+MartinR, added to PAS_Users_group
+MashatteB, added to PAS_Users_group
+MasuidI, added to PAS_Users_group
+MasonM, added to PAS_Users_group
+MascarenhasS, added to PAS_Users_group
+MasterT, added to PAS_Users_group
+MatarazzoF, added to PAS_Users_group
+MathewM, added to PAS_Users_group
+MatharuN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MatthewsonP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MatthewsonP, Not found
+MaynardM, added to PAS_Users_group
+McanenaL, added to PAS_Users_group
+MccarthyM, added to PAS_Users_group
+McbrideS, added to PAS_Users_group
+MccormackT, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MccellandZ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MccellandZ, Not found
+McevoyL, added to PAS_Users_group
+McguiganA, added to PAS_Users_group
+McintoshL, added to PAS_Users_group
+MckenzieI, added to PAS_Users_group
+MckiernanJ, added to PAS_Users_group
+McleishC, added to PAS_Users_group
+McluskeyL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'McnaughtonA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: McnaughtonA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'McphersonK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: McphersonK, Not found
+McphersonT, added to PAS_Users_group
+McqueenM, added to PAS_Users_group
+McveighE, added to PAS_Users_group
+MealeyS, added to PAS_Users_group
+MechatR, added to PAS_Users_group
+MedleyM, added to PAS_Users_group
+MehatM, added to PAS_Users_group
+MehmetS, added to PAS_Users_group
+MemonM, added to PAS_Users_group
+MenonD, added to PAS_Users_group
+MenorF, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MetcalfeP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MetcalfeP, Not found
+MiahG, added to PAS_Users_group
+MiahN, added to PAS_Users_group
+MiahS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'RashedMiahS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: RashedMiahS, Not found
+MiahS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MichaelM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MichaelM, Not found
+MilliganA, added to PAS_Users_group
+MillerJ, added to PAS_Users_group
+MilnerJ, added to PAS_Users_group
+MillerJ, added to PAS_Users_group
+MinchinE, added to PAS_Users_group
+MinihanM, added to PAS_Users_group
+MirandaC, added to PAS_Users_group
+MirandaE, added to PAS_Users_group
+MirzaT, added to PAS_Users_group
+MirzaZ, added to PAS_Users_group
+MistryS, added to PAS_Users_group
+MistryS, added to PAS_Users_group
+MockC, added to PAS_Users_group
+ModesteL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Mohiud-DinS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Mohiud-DinS, Not found
+MohammedZ, added to PAS_Users_group
+MonederoA, added to PAS_Users_group
+MooreC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MooreJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MooreJ, Not found
+MorrisonC, added to PAS_Users_group
+MortbyD, added to PAS_Users_group
+MorganD, added to PAS_Users_group
+MorenoE, added to PAS_Users_group
+MortbyF, added to PAS_Users_group
+MorrisL, added to PAS_Users_group
+MotloungK, added to PAS_Users_group
+MotteM, added to PAS_Users_group
+MoyoE, added to PAS_Users_group
+MponziR, added to PAS_Users_group
+MughalS, added to PAS_Users_group
+MuhundhakumarD, added to PAS_Users_group
+MuldowneyM, added to PAS_Users_group
+MuljiS, added to PAS_Users_group
+MundayG, added to PAS_Users_group
+MuquithF, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'MurphyC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: MurphyC, Not found
+MurtaF, added to PAS_Users_group
+MurphyJ, added to PAS_Users_group
+MurphyK, added to PAS_Users_group
+MurruM, added to PAS_Users_group
+MurphyS, added to PAS_Users_group
+MyersM, added to PAS_Users_group
+NadungaP, added to PAS_Users_group
+NaikC, added to PAS_Users_group
+NalumuJ, added to PAS_Users_group
+NamakulaM, added to PAS_Users_group
+NandhaD, added to PAS_Users_group
+NasirA, added to PAS_Users_group
+NashT, added to PAS_Users_group
+NathasinghM, added to PAS_Users_group
+NathwaniN, added to PAS_Users_group
+NcubeE, added to PAS_Users_group
+NdiayeA, added to PAS_Users_group
+NdlovuC, added to PAS_Users_group
+NdokoM, added to PAS_Users_group
+NemethC, added to PAS_Users_group
+NessaP, added to PAS_Users_group
+NettoR, added to PAS_Users_group
+NeumannI, added to PAS_Users_group
+NewmanH, added to PAS_Users_group
+NewmanS, added to PAS_Users_group
+NewtonT, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'NgJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: NgJ, Not found
+Ngo-DjonL, added to PAS_Users_group
+NichollsA, added to PAS_Users_group
+NicholsonL, added to PAS_Users_group
+Niestrata-OrtizM, added to PAS_Users_group
+NingB, added to PAS_Users_group
+NithyananthanN, added to PAS_Users_group
+NobleC, added to PAS_Users_group
+NobleJ, added to PAS_Users_group
+JackN, added to PAS_Users_group
+NorthR, added to PAS_Users_group
+NottJ, added to PAS_Users_group
+NunezA, added to PAS_Users_group
+NyamadzawoS, added to PAS_Users_group
+NyirendaK, added to PAS_Users_group
+ObadeyiY, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'O'BrartN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: O'BrartN, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'O'DonnellA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: O'DonnellA, Not found
+OdukoyaO, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'O'FarrellS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: O'FarrellS, Not found
+OfoajokuI, added to PAS_Users_group
+OgunsanyaH, added to PAS_Users_group
+OgunbowaleL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'CogundareO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: CogundareO, Not found
+OgunmadewaO, added to PAS_Users_group
+OikeO, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'O'KereO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: O'KereO, Not found
+OkonkwoM, added to PAS_Users_group
+OkruszekA, added to PAS_Users_group
+OkunowoT, added to PAS_Users_group
+OladunniH, added to PAS_Users_group
+OlatokunV, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PengOliviaLiJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PengOliviaLiJ, Not found
+OllessonO, added to PAS_Users_group
+OluwatobiD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Oluyide-OjoO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Oluyide-OjoO, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'OmatsulO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: OmatsulO, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'AolOnenA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: AolOnenA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'OnyaE' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: OnyaE, Not found
+OrinaC, added to PAS_Users_group
+OrlansH, added to PAS_Users_group
+OronsayeC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'OrsineMurtaDiasK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: OrsineMurtaDiasK, Not found
+OsborneS, added to PAS_Users_group
+OsterJ, added to PAS_Users_group
+OttleyD, added to PAS_Users_group
+OtterM, added to PAS_Users_group
+OtufaleR, added to PAS_Users_group
+OuabachN, added to PAS_Users_group
+OviesS, added to PAS_Users_group
+OwolabiC, added to PAS_Users_group
+OwoniyiM, added to PAS_Users_group
+OyewoleA, added to PAS_Users_group
+OzturkM, added to PAS_Users_group
+PackP, added to PAS_Users_group
+PaduaM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Palmer-AnscomA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Palmer-AnscomA, Not found
+PalmaJ, added to PAS_Users_group
+PanayiA, added to PAS_Users_group
+PanayiotouP, added to PAS_Users_group
+PandolfiS, added to PAS_Users_group
+PapamichaelE, added to PAS_Users_group
+PapierK, added to PAS_Users_group
+ParsonsA, added to PAS_Users_group
+ParmarJ, added to PAS_Users_group
+ParsonsK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ParkerR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ParkerR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'TeamTestLoginP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: TeamTestLoginP, Not found
+PasuS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelA, Not found
+PatelB, added to PAS_Users_group
+PatelD, added to PAS_Users_group
+PatelD, added to PAS_Users_group
+PatelH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelJ, Not found
+PatelL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelM, Not found
+PatraoN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatanniR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatanniR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PatelS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PatelS, Not found
+PaulN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PaulS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PaulS, Not found
+PavesioS, added to PAS_Users_group
+PeckarA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PecsonV' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PecsonV, Not found
+PefkianakiM, added to PAS_Users_group
+PennycuickM, added to PAS_Users_group
+PereraH, added to PAS_Users_group
+PetersA, added to PAS_Users_group
+PetritiB, added to PAS_Users_group
+PetrushkinH, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Duval-PetrynaO' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Duval-PetrynaO, Not found
+PhillipsJ, added to PAS_Users_group
+PintoP, added to PAS_Users_group
+PlinstonS, added to PAS_Users_group
+PlumeJ, added to PAS_Users_group
+PondtS, added to PAS_Users_group
+PooleA, added to PAS_Users_group
+PoplarC, added to PAS_Users_group
+PosnerM, added to PAS_Users_group
+PoteyS, added to PAS_Users_group
+PowtonA, added to PAS_Users_group
+PowdrillC, added to PAS_Users_group
+PowellH, added to PAS_Users_group
+PrestonE, added to PAS_Users_group
+PrenticeV, added to PAS_Users_group
+PriceC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PriceJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PriceJ, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'DavidPriceL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: DavidPriceL, Not found
+ProvencalG, added to PAS_Users_group
+PuertasR, added to PAS_Users_group
+PulleyK, added to PAS_Users_group
+PuntM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'PurcellY' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: PurcellY, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Quarcoo-PriceR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Quarcoo-PriceR, Not found
+RagosR, added to PAS_Users_group
+RahmanA, added to PAS_Users_group
+RahmanF, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ArahmanN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ArahmanN, Not found
+RahmanR, added to PAS_Users_group
+RahmanW, added to PAS_Users_group
+RaisonH, added to PAS_Users_group
+RaiP, added to PAS_Users_group
+RajputE, added to PAS_Users_group
+RajoriaS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'RajanRajasudhaS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: RajanRajasudhaS, Not found
+RajeT, added to PAS_Users_group
+RamsurrunA, added to PAS_Users_group
+RamsdenC, added to PAS_Users_group
+RamerezD, added to PAS_Users_group
+RamirezJ, added to PAS_Users_group
+RamazaniJ, added to PAS_Users_group
+RamlallM, added to PAS_Users_group
+RamsurrunR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'RampatR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: RampatR, Not found
+RamessurR, added to PAS_Users_group
+RamosS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'RamalinghamS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: RamalinghamS, Not found
+RamsewakS, added to PAS_Users_group
+RamosW, added to PAS_Users_group
+RangineniA, added to PAS_Users_group
+RanawakaH, added to PAS_Users_group
+RandallM, added to PAS_Users_group
+RankineT, added to PAS_Users_group
+RashidE, added to PAS_Users_group
+RashidF, added to PAS_Users_group
+RashidH, added to PAS_Users_group
+RashadM, added to PAS_Users_group
+RawtaniN, added to PAS_Users_group
+RealC, added to PAS_Users_group
+RealJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'L' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: L, Not found
+ReddyA, added to PAS_Users_group
+ReedA, added to PAS_Users_group
+ReeksC, added to PAS_Users_group
+ReevesD, added to PAS_Users_group
+ReetunT, added to PAS_Users_group
+RehmanZ, added to PAS_Users_group
+ReininkM, added to PAS_Users_group
+RenganathanB, added to PAS_Users_group
+ReubenM, added to PAS_Users_group
+ReynoldsT, added to PAS_Users_group
+RibeiroI, added to PAS_Users_group
+RiceroA, added to PAS_Users_group
+RichardsonA, added to PAS_Users_group
+RicamaraC, added to PAS_Users_group
+RichardsH, added to PAS_Users_group
+RichardsM, added to PAS_Users_group
+RihovaA, added to PAS_Users_group
+RoachG, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SilversidesR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SilversidesR, Not found
+RobsonA, added to PAS_Users_group
+RobertsC, added to PAS_Users_group
+RobothamL, added to PAS_Users_group
+RobsonR, added to PAS_Users_group
+RodriguesF, added to PAS_Users_group
+RodriguesJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'RodriguesM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: RodriguesM, Not found
+RoelofsK, added to PAS_Users_group
+RogersD, added to PAS_Users_group
+RogersM, added to PAS_Users_group
+RoseH, added to PAS_Users_group
+RoseT, added to PAS_Users_group
+RothJ, added to PAS_Users_group
+RughaniA, added to PAS_Users_group
+RughaniS, added to PAS_Users_group
+RunganD, added to PAS_Users_group
+RunhamL, added to PAS_Users_group
+RupraA, added to PAS_Users_group
+RussK, added to PAS_Users_group
+RutkowskaC, added to PAS_Users_group
+RynneL, added to PAS_Users_group
+SadeghS, added to PAS_Users_group
+SadiqS, added to PAS_Users_group
+SafferM, added to PAS_Users_group
+SagayB, added to PAS_Users_group
+SagooK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SahathefanK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SahathefanK, Not found
+SaihanZ, added to PAS_Users_group
+SakikH, added to PAS_Users_group
+SalehN, added to PAS_Users_group
+SamuelsD, added to PAS_Users_group
+SantosA, added to PAS_Users_group
+SantosA, added to PAS_Users_group
+SangheraJ, added to PAS_Users_group
+SantosP, added to PAS_Users_group
+SandhuS, added to PAS_Users_group
+SansomeS, added to PAS_Users_group
+SanniW, added to PAS_Users_group
+SapporR, added to PAS_Users_group
+SarkodieA, added to PAS_Users_group
+SattaK, added to PAS_Users_group
+SaundersD, added to PAS_Users_group
+SawardV, added to PAS_Users_group
+SayadianG, added to PAS_Users_group
+ScarlettC, added to PAS_Users_group
+SchmermerC, added to PAS_Users_group
+SchiffE, added to PAS_Users_group
+ScottA, added to PAS_Users_group
+ScottD, added to PAS_Users_group
+ScruttonM, added to PAS_Users_group
+SebwatoR, added to PAS_Users_group
+SehmiA, added to PAS_Users_group
+SelteneM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SenthilKumarK' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SenthilKumarK, Not found
+SenP, added to PAS_Users_group
+SerunjogiH, added to PAS_Users_group
+SerebryanskaT, added to PAS_Users_group
+SgourouE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SharmaA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SharmaA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SharmaA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SharmaA, Not found
+ShalsonA, added to PAS_Users_group
+ShahjalalA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'UdaniShahB' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: UdaniShahB, Not found
+SharrattF, added to PAS_Users_group
+ShahG, added to PAS_Users_group
+ShaikhJ, added to PAS_Users_group
+SharpleyL, added to PAS_Users_group
+ShaqiriL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ShahM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ShahM, Not found
+ShahjahanM, added to PAS_Users_group
+ShahN, added to PAS_Users_group
+ShahN, added to PAS_Users_group
+ShamsP, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ArvindShahP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ArvindShahP, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ShahS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ShahS, Not found
+ShahidS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ShahS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ShahS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ShaikhS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ShaikhS, Not found
+ShanmuganathanS, added to PAS_Users_group
+SharmaT, added to PAS_Users_group
+ShahT, added to PAS_Users_group
+ShahV, added to PAS_Users_group
+ShahZ, added to PAS_Users_group
+SheridanD, added to PAS_Users_group
+ShermatovH, added to PAS_Users_group
+ShergoldP, added to PAS_Users_group
+SheelP, added to PAS_Users_group
+ShikderA, added to PAS_Users_group
+ShielsF, added to PAS_Users_group
+ShielsS, added to PAS_Users_group
+ShkudnovaM, added to PAS_Users_group
+ShoaibI, added to PAS_Users_group
+ShondeP, added to PAS_Users_group
+Sholaja-BellY, added to PAS_Users_group
+ShuR, added to PAS_Users_group
+ShweikhY, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'JosephSibleyD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: JosephSibleyD, Not found
+SiddiquiS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SilversidesR' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SilversidesR, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'S' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: S, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SimpsonL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SimpsonL, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'YueSimS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: YueSimS, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SinghA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SinghA, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SinghA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SinghA, Not found
+SinghJ, added to PAS_Users_group
+SiriwardenaD, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SmithC' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SmithC, Not found
+SmithD, added to PAS_Users_group
+SmithD, added to PAS_Users_group
+SmithE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'SmithJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: SmithJ, Not found
+SmithN, added to PAS_Users_group
+SmytheE, added to PAS_Users_group
+SmytheJ, added to PAS_Users_group
+SnipperR, added to PAS_Users_group
+SnowballA, added to PAS_Users_group
+SnowC, added to PAS_Users_group
+SnowE, added to PAS_Users_group
+SodipoA, added to PAS_Users_group
+SodipoS, added to PAS_Users_group
+SoloE, added to PAS_Users_group
+SomuyiwaA, added to PAS_Users_group
+SondhS, added to PAS_Users_group
+Soon-MurphyC, added to PAS_Users_group
+SoomroT, added to PAS_Users_group
+SoweM, added to PAS_Users_group
+SparksG, added to PAS_Users_group
+SpeedwellL, added to PAS_Users_group
+SpencerN, added to PAS_Users_group
+SperlingT, added to PAS_Users_group
+StaceyB, added to PAS_Users_group
+StarrC, added to PAS_Users_group
+StatkevicieneD, added to PAS_Users_group
+StaffordM, added to PAS_Users_group
+StarkT, added to PAS_Users_group
+StrahanB, added to PAS_Users_group
+StroiuD, added to PAS_Users_group
+StrongS, added to PAS_Users_group
+StylesE, added to PAS_Users_group
+SuddiA, added to PAS_Users_group
+SudhakaranC, added to PAS_Users_group
+SujeebunI, added to PAS_Users_group
+SultanaF, added to PAS_Users_group
+SultanaH, added to PAS_Users_group
+SultanN, added to PAS_Users_group
+SultanS, added to PAS_Users_group
+SummerA, added to PAS_Users_group
+SuntharalingamS, added to PAS_Users_group
+SuriA, added to PAS_Users_group
+SvihalkovaV, added to PAS_Users_group
+SynnottK, added to PAS_Users_group
+SzecskoG, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Tabasa-LimS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Tabasa-LimS, Not found
+TailorA, added to PAS_Users_group
+TailorJ, added to PAS_Users_group
+TailorV, added to PAS_Users_group
+TamA, added to PAS_Users_group
+TamB, added to PAS_Users_group
+TanN, added to PAS_Users_group
+TansleyS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'TasnimM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: TasnimM, Not found
+TaylorJ, added to PAS_Users_group
+TaylorP, added to PAS_Users_group
+TekluT, added to PAS_Users_group
+TemizsoyluO, added to PAS_Users_group
+SimmonsT, added to PAS_Users_group
+SimmonsT, added to PAS_Users_group
+ThanJ, added to PAS_Users_group
+ThatcherL, added to PAS_Users_group
+ThanabalasinghamT, added to PAS_Users_group
+TheoJ, added to PAS_Users_group
+TheodorouM, added to PAS_Users_group
+ThomasA, added to PAS_Users_group
+ThombsJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Thompson-FrancisJ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Thompson-FrancisJ, Not found
+ThompsonL, added to PAS_Users_group
+ThompsonN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ThomasP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ThomasP, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ThomasP' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ThomasP, Not found
+ThomasR, added to PAS_Users_group
+ThomasS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ThompsonS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ThompsonS, Not found
+TierneyR, added to PAS_Users_group
+TimlinH, added to PAS_Users_group
+TimbolR, added to PAS_Users_group
+TingM, added to PAS_Users_group
+TitmussK, added to PAS_Users_group
+TomlinA, added to PAS_Users_group
+TooleK, added to PAS_Users_group
+TorresJ, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'TossounisH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: TossounisH, Not found
+TothM, added to PAS_Users_group
+Toure-GayeS, added to PAS_Users_group
+ToweyG, added to PAS_Users_group
+TownsendS, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'TranH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: TranH, Not found
+TraceyN, added to PAS_Users_group
+TreacyE, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Treston-DaviesH' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Treston-DaviesH, Not found
+TrepatchayakomS, added to PAS_Users_group
+TriantafyllopoulouI, added to PAS_Users_group
+TrivediM, added to PAS_Users_group
+TrivediM, added to PAS_Users_group
+TuckerP, added to PAS_Users_group
+TuckerW, added to PAS_Users_group
+TudemeU, added to PAS_Users_group
+TurnerN, added to PAS_Users_group
+Tyler-MooreS, added to PAS_Users_group
+TzioridouP, added to PAS_Users_group
+UbhiC, added to PAS_Users_group
+UddinF, added to PAS_Users_group
+UddinM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'UddinN' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: UddinN, Not found
+UddinS, added to PAS_Users_group
+UdeozoA, added to PAS_Users_group
+UhukaE, added to PAS_Users_group
+UkonzeH, added to PAS_Users_group
+UmorenA, added to PAS_Users_group
+UnwinA, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Uzdavinyte-DurakuZ' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Uzdavinyte-DurakuZ, Not found
+VaghelaR, added to PAS_Users_group
+VahdaniK, added to PAS_Users_group
+VakrosG, added to PAS_Users_group
+VaraskieneE, added to PAS_Users_group
+VariaJ, added to PAS_Users_group
+VarsaniS, added to PAS_Users_group
+VargheseT, added to PAS_Users_group
+VeerapatrenS, added to PAS_Users_group
+VekamenakoG, added to PAS_Users_group
+VenturiN, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'VermeischS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: VermeischS, Not found
+VetpillaiP, added to PAS_Users_group
+VettonthraS, added to PAS_Users_group
+BuceV, added to PAS_Users_group
+VijayasureshN, added to PAS_Users_group
+VirgoJ, added to PAS_Users_group
+VirdeeN, added to PAS_Users_group
+VirkR, added to PAS_Users_group
+ViraniS, added to PAS_Users_group
+VisramP, added to PAS_Users_group
+VithlaniH, added to PAS_Users_group
+VoicuD, added to PAS_Users_group
+VolkovaT, added to PAS_Users_group
+VoraA, added to PAS_Users_group
+VoyatzisG, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'YeeVuongS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: YeeVuongS, Not found
+VyasK, added to PAS_Users_group
+VyasS, added to PAS_Users_group
+WagnerS, added to PAS_Users_group
+WahnigR, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WakelyL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WakelyL, Not found
+WallaceM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WalkerS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WalkerS, Not found
+WaqarS, added to PAS_Users_group
+WarnerC, added to PAS_Users_group
+WarrickK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WarrickM' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WarrickM, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WatsonD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WatsonD, Not found
+WatsonL, added to PAS_Users_group
+WawrzynskiJ, added to PAS_Users_group
+WaylandJ, added to PAS_Users_group
+WayaR, added to PAS_Users_group
+WeberA, added to PAS_Users_group
+WeerasuriyaK, added to PAS_Users_group
+WeekesL, added to PAS_Users_group
+WeerasuriyaL, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WenbourneA' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WenbourneA, Not found
+WennellM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WestV' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WestV, Not found
+WheatleyS, added to PAS_Users_group
+WhitingC, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WilliamsD' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WilliamsD, Not found
+WilliamsonJ, added to PAS_Users_group
+WillJ, added to PAS_Users_group
+WilsonK, added to PAS_Users_group
+WilliamsK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'WilliamsL' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: WilliamsL, Not found
+WilliamsonQ, added to PAS_Users_group
+WilsonS, added to PAS_Users_group
+WilemanS, added to PAS_Users_group
+WinstonA, added to PAS_Users_group
+WinstanleyK, added to PAS_Users_group
+WongK, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'Wood(Nurse)A' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: Wood(Nurse)A, Not found
+WoodingJ, added to PAS_Users_group
+WoodP, added to PAS_Users_group
+WoronkowiczM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'NiWuX' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: NiWuX, Not found
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ElizabethYanS' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ElizabethYanS, Not found
+YangL, added to PAS_Users_group
+YangS, added to PAS_Users_group
+YapD, added to PAS_Users_group
+YasminF, added to PAS_Users_group
+YauJ, added to PAS_Users_group
+YeatmanB, added to PAS_Users_group
+YeginM, added to PAS_Users_group
+YeohS, added to PAS_Users_group
+YilanA, added to PAS_Users_group
+YoungM, added to PAS_Users_group
+TerminatingError(Get-ADUser): "Cannot find an object with identity: 'ReneeY' under: 'DC=moorfields,DC=nhs,DC=uk'."
+WARNING: ReneeY, Not found
+YuJ, added to PAS_Users_group
+YuWaiManP, added to PAS_Users_group
+ZihlerC, added to PAS_Users_group
+ZogejaniV, added to PAS_Users_group
+ZvobgoM, added to PAS_Users_group
+@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+ping nb16560ping nb16560
+
+ping nb16560@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehliberty01
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehliberty01 -t
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping nb16560
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehdccro mehbackup
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehbackup mehdccro
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehdccro mehbackup
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehdccro mehbackup
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehvm-cr mehvm3
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehvm3 mehvm-cr
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> dir
+
+
+    Directory: M:\netperf
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       10/07/1996     00:00         207496 netperf-2.1pl1.exe
+-a----       21/10/2003     09:38            153 netperf.bat
+-a----       17/02/2019     10:24              0 netperf.log
+-a----       15/12/2003     14:37            114 netperfstg.bat
+-a----       28/11/2000     23:00        1459696 netperf_2.1_manual.pdf
+-a----       10/07/1996     00:00         209568 netserver-2.1pl1.exe
+-a----       28/11/2000     23:00         237616 puddy_netperf.exe
+-a----       28/11/2000     23:00         242812 puddy_netserver.exe
+-a----       07/12/2018     15:17              7 query
+
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> cd \
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\> cd .\Powershell\
+PS M:\> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+Loading Dictionary...
+Selecting Words...
+theek.shuln.mala
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping tsg
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping tsg.moorfields.nhs.uk
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping 194.74.145.76
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> tracert  194.74.145.76
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping M012342
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping M012342
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping netcall
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping liberty
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> nslookup liberty
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping 192.168.41.9
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping m014844
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> ping m014844
+
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\Powershell> cd \
+PS M:\Powershell> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\> cd .\netperf\
+PS M:\> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehvm3 m016444
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016444 mehvm3
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping m015762
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016444 m015762
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m015762 m016444
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016444 mehvm-cr
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehvm-cr m016444
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016816 m016444
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016444 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehic9 res-sql02
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat res-sql02 mehic9
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehic9 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016816 mehic9
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016816 res-sql02
+
+c:\netserver-2.1pl1.exe started on res-sql02 with process ID 7664.
+
+M:\netperf>psexec \\m016816 c:\netperf-2.1pl1.exe -H res-sql02
+
+PsExec v2.2 - Execute processes remotely
+Copyright (C) 2001-2016 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+
+TCP STREAM TEST to res-sql02
+Recv   Send    Send
+Socket Socket  Message  Elapsed
+Size   Size    Size     Time     Throughput
+bytes  bytes   bytes    secs.    10^6bits/sec
+
+ 65536  65536  65536    10.00     888.93
+c:\netperf-2.1pl1.exe exited on m016816 with error code 0.
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  res-sql02 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> tracert m016444
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> cd .\iperf-3.1.3-win64\
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf\iperf-3.1.3-win64> iperf
+iperf : The term 'iperf' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ iperf
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (iperf:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+iperf : The term 'iperf' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ iperf
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (iperf:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS M:\netperf\iperf-3.1.3-win64> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf\iperf-3.1.3-win64> .\iperf3.exe
+
+PS M:\netperf\iperf-3.1.3-win64> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf\iperf-3.1.3-win64> cd..
+PS M:\netperf\iperf-3.1.3-win64> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehicnwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  res-sql02 mehicnwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016816 mehicnwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehvm-nwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016815 mehvm-nwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016816 mehvm-nwp
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehicnwp res-sql02
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehicnwp m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehvm-stg
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehicsg
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m016816 mehvm-stg
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehvm-stg m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  res-sql02 mehicsg
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehicsg res-sql02
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+Loading Dictionary...
+Selecting Words...
+foes-nills-ccoya
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+tracert 51.105.47.148tracert 51.105.47.148
+ 10     *
+tracert 51.105.47.148@{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping 192.168.41.51
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> tracert nautilusconsulting.atlassian.net
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> tracert 194.155.255.118
+ 10
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> tracert lab2lab.xlab.this.nhs.uk
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping nb19696
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> nslookup optom-stroi.ru
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping -a 192.168.18.100
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping -a 192.168.127.120
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping -a 192.168.127.146
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> ping mehheyex2
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehheyex2 m012285
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m012285 mehheyex2
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m017422 mehheyex2
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehheyex2 m017422
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016816 m017422
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m017422 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016816 mehvm-cro
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016816 mehvm-cr
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehvm-cr m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat m016816 mehheyex2
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mmehheyex2 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat mehheyex2 m016816
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  m017422 mehvm-cr
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> .\netperf.bat  mehvm-cr m017422
+
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\netperf> cd ..
+PS M:\netperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\> cd iperf
+PS M:\> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf3.exe /?
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> iperf m012285 mehheyex2
+iperf : The term 'iperf' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ iperf m012285 mehheyex2
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (iperf:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+iperf : The term 'iperf' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ iperf m012285 mehheyex2
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (iperf:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m012285 mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m012285 mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf3.exe -c mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf3.exe -s
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf3.exe -c mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf3.exe -c mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> psexec /?
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m012285 mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat mehheyex2 m012285
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat mehheyex2 m017422
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m017422 mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 m017422
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m017422 m017422
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m017422 m016816
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m017422 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Install-Module iPerfAutomate
+NuGet provider is required to continue
+PowerShellGet requires NuGet provider version '2.8.5.201' or newer to interact with NuGet-based repositories. The NuGet provider must be available in 'C:\Program Files\PackageManagement\ProviderAssemblies' or 'C:\Users\adminsg\AppData\Local\PackageManagement\ProviderAssemblies'. You can also install the NuGet provider by running 'Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force'. Do you want PowerShellGet to install and import the NuGet provider now?
+&Yes  &No  &Suspend
+Y
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
+&Yes  Yes to &All  &No  No to A&ll  &Suspend
+Y
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest
+PS M:\iperf> TerminatingError(Start-IPerfMonitorTest): "Parameter set cannot be resolved using the specified named parameters."
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -h
+>> TerminatingError(Start-IPerfMonitorTest): "Parameter set cannot be resolved using the specified named parameters."
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest -h
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest -h
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest /?
+>> TerminatingError(Start-IPerfMonitorTest): "Parameter set cannot be resolved using the specified named parameters."
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest /?
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : Parameter set cannot be resolved using the specified named parameters.
+At line:1 char:1
++ Start-IPerfMonitorTest /?
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Start-IPerfMonitorTest], ParameterBindingException
+    + FullyQualifiedErrorId : AmbiguousParameterSet,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> get-help Start-IPerfMonitorTest
+
+NAME
+    Start-IPerfMonitorTest
+
+SYNOPSIS
+    This function invokes Iperf from the server at site FromSite to all of the sites specified in ToSite.
+
+
+SYNTAX
+    Start-IPerfMonitorTest -FromSite <String> -ToSite <String[]> [-WindowSize <String>] [-FileSize <String>] [<CommonParameters>]
+
+    Start-IPerfMonitorTest -FromServerName <String> -ToServerName <String[]> [-WindowSize <String>] [-FileSize <String>]
+    [<CommonParameters>]
+
+
+DESCRIPTION
+
+
+RELATED LINKS
+
+REMARKS
+    To see the examples, type: "get-help Start-IPerfMonitorTest -examples".
+    For more information, type: "get-help Start-IPerfMonitorTest -detailed".
+    For technical information, type: "get-help Start-IPerfMonitorTest -full".
+
+
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHEYEX2
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHEYEX2 -ToServerName M012285
+PS M:\iperf> TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [M012285] Connecting to remote server M012285 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+PS M:\iperf> TerminatingError(StopIPerfServer): "[M012285] Connecting to remote server M012285 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+>> TerminatingError(Start-IPerfMonitorTest): "The server(s) [MEHEYEX2] could not be contacted."
+Start-IPerfMonitorTest : The server(s) [MEHEYEX2] could not be contacted.
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHEYEX2 -ToServerName M012285
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (The server(s) [...t be contacted.:String) [Start-IPerfMonitorTest], 
+RuntimeException
+    + FullyQualifiedErrorId : The server(s) [MEHEYEX2] could not be contacted.,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : The server(s) [MEHEYEX2] could not be contacted.
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHEYEX2 -ToServerName M012285
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (The server(s) [...t be contacted.:String) [Start-IPerfMonitorTest], RuntimeException
+    + FullyQualifiedErrorId : The server(s) [MEHEYEX2] could not be contacted.,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M012285
+PS M:\iperf> TerminatingError(Get-CimInstance): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+>> TerminatingError(Test-IPerfServer): "The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+>> TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [M012285] Connecting to remote server M012285 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+PS M:\iperf> TerminatingError(StopIPerfServer): "[M012285] Connecting to remote server M012285 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+>> TerminatingError(Start-IPerfMonitorTest): "The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+Start-IPerfMonitorTest : The client cannot connect to the destination specified in the request. Verify that the service 
+on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management 
+service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the 
+following command on the destination to analyze and configure the WinRM service: "winrm quickconfig".
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M01228 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ConnectionError: (:) [Start-IPerfMonitorTest], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80338012,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : The client cannot connect to the destination specified in the request. Verify that the service on the
+destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the
+destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to
+analyze and configure the WinRM service: "winrm quickconfig".
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M01228 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ConnectionError: (:) [Start-IPerfMonitorTest], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80338012,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName MEHVM-CR
+Connecting to host MEHVM-CR, port 5201
+[  4] local 192.168.21.40 port 58012 connected to 192.168.127.1 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  32.1 MBytes   269 Mbits/sec
+[  4]   1.00-2.00   sec  46.2 MBytes   388 Mbits/sec
+[  4]   2.00-3.00   sec  43.9 MBytes   368 Mbits/sec
+[  4]   3.00-4.00   sec  37.4 MBytes   314 Mbits/sec
+[  4]   4.00-5.00   sec  33.6 MBytes   282 Mbits/sec
+[  4]   5.00-6.00   sec  37.8 MBytes   316 Mbits/sec
+[  4]   6.00-7.00   sec  38.4 MBytes   322 Mbits/sec
+[  4]   7.00-8.00   sec  40.4 MBytes   339 Mbits/sec
+[  4]   8.00-9.00   sec  27.8 MBytes   233 Mbits/sec
+[  4]   9.00-10.00  sec  32.1 MBytes   270 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-10.00  sec   370 MBytes   310 Mbits/sec                  sender
+[  4]   0.00-10.00  sec   369 MBytes   310 Mbits/sec                  receiver
+
+iperf Done.
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName MEHVM-CR -Verbose
+VERBOSE: Copying IPerf module to [\\MEHHEYEX2\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Copying IPerf module to [\\MEHVM-CR\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: IPerf server not running on [MEHVM-CR]. Starting server...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Invoking iPerf in [Server] mode on computer(s) [MEHVM-CR] using args [-s]...
+VERBOSE: Invoking iPerf in [Client] mode on computer(s) [MEHHEYEX2] using args [-c MEHVM-CR -w 712KB]...
+Connecting to host MEHVM-CR, port 5201
+[  4] local 192.168.21.40 port 58069 connected to 192.168.127.1 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  34.8 MBytes   291 Mbits/sec
+[  4]   1.00-2.00   sec  43.6 MBytes   366 Mbits/sec
+[  4]   2.00-3.00   sec  37.2 MBytes   312 Mbits/sec
+[  4]   3.00-4.00   sec  26.9 MBytes   226 Mbits/sec
+[  4]   4.00-5.00   sec  26.9 MBytes   225 Mbits/sec
+[  4]   5.00-6.00   sec  26.9 MBytes   225 Mbits/sec
+[  4]   6.00-7.00   sec  38.1 MBytes   320 Mbits/sec
+[  4]   7.00-8.00   sec  36.2 MBytes   304 Mbits/sec
+[  4]   8.00-9.00   sec  31.2 MBytes   262 Mbits/sec
+[  4]   9.00-10.00  sec  27.9 MBytes   234 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-10.00  sec   330 MBytes   277 Mbits/sec                  sender
+[  4]   0.00-10.00  sec   329 MBytes   276 Mbits/sec                  receiver
+
+iperf Done.
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M016816 -Verbose
+VERBOSE: Copying IPerf module to [\\MEHHEYEX2\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Copying IPerf module to [\\M016816\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+>> TerminatingError(Get-CimInstance): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+>> TerminatingError(Test-IPerfServer): "The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+>> TerminatingError(): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [M016816] Connecting to remote server M016816 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+PS M:\iperf> TerminatingError(StopIPerfServer): "[M016816] Connecting to remote server M016816 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+>> TerminatingError(Start-IPerfMonitorTest): "The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig"."
+Start-IPerfMonitorTest : The client cannot connect to the destination specified in the request. Verify that the service 
+on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management 
+service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the 
+following command on the destination to analyze and configure the WinRM service: "winrm quickconfig".
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M01681 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ConnectionError: (:) [Start-IPerfMonitorTest], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80338012,Start-IPerfMonitorTest
+Start-IPerfMonitorTest : The client cannot connect to the destination specified in the request. Verify that the service on the
+destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the
+destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to
+analyze and configure the WinRM service: "winrm quickconfig".
+At line:1 char:1
++ Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName M01681 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ConnectionError: (:) [Start-IPerfMonitorTest], CimException
+    + FullyQualifiedErrorId : HRESULT 0x80338012,Start-IPerfMonitorTest
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName MEHBACKUP -Verbose
+VERBOSE: Copying IPerf module to [\\MEHHEYEX2\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Copying IPerf module to [\\MEHBACKUP\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: IPerf server not running on [MEHBACKUP]. Starting server...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Invoking iPerf in [Server] mode on computer(s) [MEHBACKUP] using args [-s]...
+VERBOSE: Invoking iPerf in [Client] mode on computer(s) [MEHHEYEX2] using args [-c MEHBACKUP -w 712KB]...
+Connecting to host MEHBACKUP, port 5201
+[  4] local 192.168.21.40 port 59514 connected to 192.168.18.72 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  92.6 MBytes   777 Mbits/sec
+[  4]   1.00-2.00   sec  91.5 MBytes   768 Mbits/sec
+[  4]   2.00-3.00   sec  95.2 MBytes   798 Mbits/sec
+[  4]   3.00-4.00   sec  91.5 MBytes   767 Mbits/sec
+[  4]   4.00-5.00   sec  89.9 MBytes   755 Mbits/sec
+[  4]   5.00-6.01   sec  88.5 MBytes   736 Mbits/sec
+[  4]   6.01-7.00   sec  87.5 MBytes   739 Mbits/sec
+[  4]   7.00-8.00   sec  91.2 MBytes   766 Mbits/sec
+[  4]   8.00-9.00   sec  90.8 MBytes   761 Mbits/sec
+[  4]   9.00-10.00  sec  91.4 MBytes   766 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-10.00  sec   910 MBytes   763 Mbits/sec                  sender
+[  4]   0.00-10.00  sec   910 MBytes   763 Mbits/sec                  receiver
+
+iperf Done.
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> $result = Start-IPerfMonitorTest -FromServerName MEHHEYEX2 -ToServerName MEHBACKUP -Verbose
+VERBOSE: Copying IPerf module to [\\MEHHEYEX2\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Copying IPerf module to [\\MEHBACKUP\C$\Program Files\WindowsPowerShell\Modules\iPerfAutomate\1.0.16]...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: IPerf server not running on [MEHBACKUP]. Starting server...
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Perform operation 'Query CimInstances' with following parameters, ''queryExpression' = SELECT CommandLine FROM Win32_Process WHERE Name = 'iperf3.exe','queryDialect' = WQL,'namespaceName' = root\cimv2'.
+VERBOSE: Operation 'Query CimInstances' complete.
+VERBOSE: Invoking iPerf in [Server] mode on computer(s) [MEHBACKUP] using args [-s]...
+VERBOSE: Invoking iPerf in [Client] mode on computer(s) [MEHHEYEX2] using args [-c MEHBACKUP -w 712KB]...
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> $result
+Connecting to host MEHBACKUP, port 5201
+[  4] local 192.168.21.40 port 59619 connected to 192.168.18.72 port 5201
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-1.00   sec  95.0 MBytes   796 Mbits/sec
+[  4]   1.00-2.00   sec  96.9 MBytes   813 Mbits/sec
+[  4]   2.00-3.00   sec  92.6 MBytes   777 Mbits/sec
+[  4]   3.00-4.00   sec  95.2 MBytes   799 Mbits/sec
+[  4]   4.00-5.00   sec  93.4 MBytes   784 Mbits/sec
+[  4]   5.00-6.00   sec  91.8 MBytes   769 Mbits/sec
+[  4]   6.00-7.00   sec  95.0 MBytes   796 Mbits/sec
+[  4]   7.00-8.00   sec  92.0 MBytes   772 Mbits/sec
+[  4]   8.00-9.00   sec  95.8 MBytes   803 Mbits/sec
+[  4]   9.00-10.00  sec  93.9 MBytes   787 Mbits/sec
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth
+[  4]   0.00-10.00  sec   942 MBytes   790 Mbits/sec                  sender
+[  4]   0.00-10.00  sec   941 MBytes   789 Mbits/sec                  receiver
+
+iperf Done.
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> install-iperfmodule
+install-iperfmodule : The term 'install-iperfmodule' is not recognized as the name of a cmdlet, function, script file, 
+or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ install-iperfmodule
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install-iperfmodule:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+install-iperfmodule : The term 'install-iperfmodule' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path
+was included, verify that the path is correct and try again.
+At line:1 char:1
++ install-iperfmodule
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (install-iperfmodule:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping 10.40.32.4
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping 10.40.32.5
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping 10.40.32.5
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping 10.40.32.5
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping mehheyex2
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> cd .\PPerf-master\
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf\PPerf-master> dir
+
+
+    Directory: M:\iperf\PPerf-master
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       24/06/2020     17:19                Bin
+d-----       24/06/2020     17:19                Examples
+-a----       24/06/2020     17:19            378 .gitattributes
+-a----       24/06/2020     17:19            592 .gitignore
+-a----       24/06/2020     17:19          30241 PPerf.ps1
+-a----       24/06/2020     17:19            787 README.md
+
+
+PS M:\iperf\PPerf-master> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf\PPerf-master> .\PPerf.ps1
+PS M:\iperf\PPerf-master> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf\PPerf-master> cd..
+PS M:\iperf\PPerf-master> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping m015762
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping m016444
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016444 m016816
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat mehvm-stg m016816
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat mehicsg res-sql02
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 res-sql02
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016816 mehic9
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat res-sql02 mehic9
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016444 mehvm3
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> .\iperf.bat m016444 mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+
+PS M:\iperf> ping mehvm-cr
+
+PS M:\iperf> @{ 'computerName' = if ([Environment]::MachineName) {[Environment]::MachineName}  else {'localhost'}; 'processId' = $PID; 'instanceId' = $host.InstanceId }
+
+Name                           Value
+----                           -----
+processId                      71476
+computerName                   M016815
+instanceId                     1ac45237-3b23-46e3-9494-8a0c2cf0e752
+
+

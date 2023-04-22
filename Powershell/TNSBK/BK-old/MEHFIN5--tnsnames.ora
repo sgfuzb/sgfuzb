@@ -1,0 +1,11 @@
+#
+#
+# sample tnsnames.ora file
+#
+# sample entry
+#<ALIAS> = (DESCRIPTION =(ADDRESS_LIST =
+#              (ADDRESS = (PROTOCOL = TCP)
+#              (HOST = <HOST>)(PORT = <PORT>)))
+#              (CONNECT_DATA = (SID = <SID>)))
+#
+#

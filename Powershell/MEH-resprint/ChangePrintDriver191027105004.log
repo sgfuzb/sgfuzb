@@ -1,0 +1,144 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191027105004
+Username: CITY_ROAD\ADMINSG
+RunAs User: CITY_ROAD\ADMINSG
+Machine: RES-PRINT01 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe
+Process ID: 9932
+PSVersion: 5.1.14393.3053
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.3053
+BuildVersion: 10.0.14393.3053
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is c:\meh\ChangePrintDriver191027105004.log
+Server:  RES-PRINT01
+Changing drivers on printers with:
+This driver:  Microsoft XPS Document Writer
+To this driver:  Canon Generic Plus PCL6
+Collecting printer info...
+Checking 71 Printers...
+1 : Offline                  :  STG-GR-DRAGONCENTRE-LABELS 192.168.50.209_1
+2 : Offline                  :  STG-GR-DRAGONCENTRE 192.168.50.209
+3 : Offline                  :  STG-F5-RECEPTION-SG21 192.168.50.129
+4 : Offline                  :  STG-F5-RECEPTION-SG16 192.168.50.129
+5 : Offline                  :  STG-F5-RECEPTION-GWB1 192.168.50.129
+6 : Offline                  :  STG-F5-DUKE ELDER-ADMINOFFICE-SG6 192.168.50.36_1
+7 : Offline                  :  STG-F5-DUKE ELDER-ADMINOFFICE-SG5 192.168.50.36
+8 : Offline                  :  STG-F5-CHOOSEANDBOOK-SG10 192.168.50.50
+9 : Offline                  :  STG-F5-CHOOSEANDBOOK-SG09 192.168.50.50
+10 : Offline                  :  SL-GR-Reception-SLG2 192.168.40.201
+11 : Offline                  :  SL-GR-Reception-SLG1 192.168.40.201
+12 : Offline                  :  SA-GR-RECEPTION-AWB1 192.168.25.114
+13 : Offline                  :  RD-F3-ROOM3-22-FEP1 192.168.68.210
+14 : Offline                  :  RD-F1-OFFICE-RWB1 192.168.66.201
+15 : Offline                  :  PL-F1-RECEPTION-PL02 192.168.126.100
+16 : Offline                  :  PL-F1-RECEPTION-PL01 192.168.126.100
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+17 : Offline                  :  PCP2 192.168.80.229
+18 : Offline                  :  PB-Reception-Wristband 192.168.23.31
+19 : Offline                  :  NWP-F1-ADMISSIONS-NWB1 192.168.26.156
+20 : Offline                  :  NS-F1-ROOM9-NS01 10.38.115.152
+21 : Offline                  :  NS-F1-ROOM8-NS03 10.38.115.166
+22 : Offline                  :  KH-LG-BOOKINGOFFICE-BCP3 192.168.111.16
+23 : Offline                  :  KH-F1-TEST SFP 192.168.113.198
+24 : Offline                  :  GLP5 192.168.78.34
+25 : Offline                  :  ESGR-CHOOSEANDBOOKROOM1-CAB1 192.168.97.167
+26 : Offline                  :  EA-GR-EXT-STAFFOFFICE-EAP6 192.168.36.208
+27 : Offline                  :  EA-GR-EXT-STAFFOFFICE-EAP5 192.168.36.208
+28 : Offline                  :  EA-GR-ADMINOFFICE-5035 192.168.36.100
+29 : Offline                  :  EA-F3-DAYCARE-EWB2 192.168.36.231
+30 : Offline                  :  EA-F3-DAYCARE-EWB1 192.168.36.231
+31 : Offline                  :  DV-F2-ROOM9-DV01 192.168.125.206
+32 : Offline                  :  CR-LG-RECORDS-PDP2 192.168.75.207
+33 : Offline                  :  CR-LG-RECORDS-PDP1 192.168.75.207
+34 : Offline                  :  CR-LG-LIBRARY-ADMISSIONS-PREP-ROOM-APP2 192.168.64.35
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+35 : Offline                  :  PCP1 192.168.80.229
+36 : Offline                  :  CR-LG-LIBRARY-ADMISSIONS-PREP-ROOM-APP1 192.168.64.35
+37 : Offline                  :  CR-LG-CLINICALPREP-LWB1 192.168.73.41
+38 : Offline                  :  CR-GR-AE-TREATMENTROOM-AP14 192.168.80.222
+39 : Offline                  :  CR-GR-AE-THEATRE9 192.168.78.203
+40 : Offline                  :  CR-GR-AE-OUTCOMEDESK-AP10 192.168.80.221
+41 : Offline                  :  CR-GR-AE-CUBICLE4-AP18 192.168.80.204
+42 : Offline                  :  CR-GR-AE-CUBICLE3-AP19 192.168.80.203
+43 : Offline                  :  CR-GR-AE-CUBICLE18-AP24 192.168.80.214
+44 : Offline                  :  CR-GR-AE-CUBICLE17-AEP5 192.168.80.217
+45 : Offline                  :  CR-GR-AE-CUBICLE15-AEP3 192.168.80.215
+46 : Offline                  :  CR-GR-AE-CUBICLE13-AEP9 192.168.80.213
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+=$True : The term '=$True' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At C:\MEH\ChangePrintDriver.ps1:80 char:13
++             $props = =$True
++                      ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (=$True:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+47 : Offline                  :  CR-GR-AE-CUBICLE11-AEP6 192.168.80.211
+48 : Offline                  :  CR-GR-AE-CUBICLE10-AEP1 192.168.80.210
+49 : Offline                  :  CR-GR-AE-CONSULTINGROOM2-AP26 192.168.80.223
+50 : Offline                  :  CR-F4-CUMBERLEDGE-OBSWARD-OWB1 192.168.85.139
+51 : Offline                  :  CR-F4-CUMBERLEDGE-NURSES-CWB2 192.168.91.52
+52 : Offline                  :  CR-F4-CUMBERLEDGE-CLERKS-CWP3 192.168.91.52_1
+53 : Offline                  :  CR-F4-CUMBERLEDGE-CLERKS-CWB1 192.168.91.52
+54 : Offline                  :  CR-F4-CHOOSEANDBOOK-BCP5 192.168.111.25
+55 : Offline                  :  CR-F3-OUTREACH-MEWB 192.168.89.50
+56 : Offline                  :  CR-F3-ORTHOPTICS-RECPT-ORP2 192.168.89.203
+57 : Offline                  :  CR-F3-ORTHOPTICS-RECPT-ORP1 192.168.89.203
+58 : Offline                  :  CR-F3-CLINICAL-CODING 192.168.90.130
+59 : Offline                  :  CR-F2-DIRECTORATE-NURSES-NOP3 192.168.105.90
+60 : Offline                  :  CR-F1-ULTRASOUND-RECEPT-VWB1 192.168.83.202
+61 : Offline                  :  CR-F1-ULTRASOUND-RECEPT-VEP2 192.168.83.202
+62 : Offline                  :  CR-F1-ULTRASOUND-RECEPT-VEP1 192.168.83.202
+63 : Offline                  :  CR-F1-THEATRE-SEMINAR 192.168.83.61
+64 : Offline                  :  CR-F1-SEDGWICK-RECEPTION-SWP3 192.168.83.53_2
+65 : Offline                  :  CR-F1-Sedgwick-Reception-SWP2 192.168.83.53_1
+66 : Offline                  :  CR-F1-SEDGWICK-RECEPTION-SWB2 192.168.83.53
+67 : Offline                  :  CR-F1-SEDGWICK-RECEPTION-SWB1 192.168.83.53
+68 : Offline                  :  CR-F1-MACKELLAR-RECPT-MWP3 192.168.84.50_2
+69 : Offline                  :  CR-F1-MACKELLAR-RECPT-MWP2 192.168.84.50_1
+70 : Offline                  :  CD-F1-NIGHTINGALE-UAT-CD02 192.168.127.200
+71 : Offline                  :  CD-F1-NIGHTINGALE-UAT-CD01 192.168.127.200
+**********************
+Windows PowerShell transcript end
+End time: 20191027105044
+**********************

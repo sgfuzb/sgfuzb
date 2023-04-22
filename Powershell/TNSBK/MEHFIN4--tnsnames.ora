@@ -1,0 +1,40 @@
+#
+# This file is written by Oracle Services For MSCS
+# on Mon Oct 03 14:19:26 2016
+#
+EFINL12 =
+  (DESCRIPTION = 
+    (ADDRESS = (PROTOCOL = TCP) (Host = ORALIVE12.moorfields.nhs.uk) (Port = 1521) )
+    (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = EFINL12) )
+  )
+
+LISTENER_RCUL =
+  (ADDRESS = (PROTOCOL = TCP) (HOST = ORALIVE12.moorfields.nhs.uk) (PORT = 1521) )
+
+DBARC12 =
+  (DESCRIPTION = 
+    (ADDRESS =  (PROTOCOL = TCP) (Host = ORALIVE12.moorfields.nhs.uk) (Port = 1521) )
+    (CONNECT_DATA =  (SERVER = DEDICATED) (SERVICE_NAME = DBARC12) )
+  )
+
+RCUL =
+  (DESCRIPTION=
+    (ADDRESS= (PROTOCOL=TCP) (Host=ORALIVE12.moorfields.nhs.uk) (Port=1521) )
+    (CONNECT_DATA= (SERVER=DEDICATED) (SERVICE_NAME=RCUL) )
+  )
+
+PCSLIV_MEHSL1 =
+  (DESCRIPTION=
+    (ADDRESS= (PROTOCOL=TCP) (Host=ORALIVE.moorfields.nhs.uk) (Port=1521) )
+    (CONNECT_DATA= (SERVER=DEDICATED) (SERVICE_NAME=pcsliv) )
+  )
+
+EFINL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = oralive)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = efinl)
+    )
+  )
